@@ -12,7 +12,7 @@
  *   MIT License http://www.opensource.org/licenses/mit-license
  *   GPL v3 http://opensource.org/licenses/GPL-3.0
  *
- * Date: 2016-07-17T19:45:35.567Z
+ * Date: 2016-08-15T20:18:56.652Z
  */
 
 (function (factory) {
@@ -1212,7 +1212,7 @@
                                 break;
 
                             case 'select':
-                                $input = $('<select name="">')
+                                $input = $('<select name="" multiple>')
                                     .attr('name', 'context-menu-input-' + key)
                                     .appendTo($label);
                                 if (item.options) {
